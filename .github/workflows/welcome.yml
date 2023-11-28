@@ -4,3 +4,7 @@ on:
     types: [opened]
 permissions:
   pull-requests: write
+jobs:
+  buid:
+     name: Post welcome commnet
+     runs-on: ubuntu-latest
